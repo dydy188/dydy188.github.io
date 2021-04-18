@@ -1,3 +1,38 @@
 body {
-	background-color: blue;
+	margin: 0px;
+	padding: 0px;
+}
+
+.main-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.vertical-nav {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 100%;
+	position: fixed;
+	background-color: rgb(17, 16, 16);
+}
+
+.vertical-nav a {
+	margin-top: 25px;
+	margin-left: 25px;
+	text-decoration: none;
+	color: white;
+	font-size: 28px;
+}
+
+.vertical-nav p {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-bottom: 15px;
+	text-decoration: none;
+    font-size: 1.8em;
+    color: #e50914;
+    cursor: pointer;
+	border-bottom: 0.5px solid white;
 }
