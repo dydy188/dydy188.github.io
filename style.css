@@ -1,6 +1,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
+	background-color: rgb(245, 240, 240);
 }
 
 .main-wrapper {
@@ -35,4 +36,44 @@ body {
     color: #e50914;
     cursor: pointer;
 	border-bottom: 0.5px solid white;
+}
+
+.press-seo {
+	display: flex;
+	justify-content: center;
+	margin-left: 25%;
+}
+
+.first-seo-press {
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.first-seo-press a {
+	font-size: 32px;
+	line-height: 38px;
+	color: #054ada;
+	text-emphasis-style: bold;
+	text-decoration: none;
+}
+
+.first-seo-press p {
+	margin-bottom: 75px;
+	font-weight: 400;	
+	color: rgb(58, 56, 56);
+	line-height: 28px;
+	letter-spacing: 1px;
+}
+
+.title-desc-seo-press {
+	width: 750px;
+	height: 225px;
+	padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.first-seo-press a:hover {
+	color: #f80;
+    opacity: 1;
 }
